@@ -45,7 +45,7 @@ public class Calculadora {
     public void setSinal(String sinal) {
         this.sinal = sinal;
     }
-    //ESTRUTURA CONDICIONAL PARA DEFINIR QUAL OPERAÇÃO SERÁ REALIZADA
+   //MÉTODO CALCULAR COM ESTRUTURA CONDICIONAL PARA DEFINIR QUAL OPERAÇÃO SERÁ REALIZADA 
     public Double operacao(Double valor, Double valor2){
          if (("+").equals(sinal)) {
             result = this.valor1 + this.valor2;
